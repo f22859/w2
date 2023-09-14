@@ -26,7 +26,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-    myHeading.innerHTML = '先週の復習です, ' + myName + 'さん';
+    myHeading.innerHTML = 'こんにちは, ' + myName + 'さん';
 
 }
 
